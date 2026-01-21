@@ -1,12 +1,8 @@
 {
-  "name": "lfa-builder-backend",
-  "version": "1.0.0",
+  "name": "lfa-backend",
   "type": "module",
   "private": true,
   "dependencies": {
-    "express": "^4.19.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
     "@google/genai": "^1.37.0"
   }
 }
