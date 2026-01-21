@@ -1,28 +1,12 @@
 {
-  "name": "lfa-builder",
+  "name": "lfa-builder-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server",
-    "vercel-start" : "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vaibhavs-h/LFA-Builder.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vaibhavs-h/LFA-Builder/issues"
-  },
-  "homepage": "https://github.com/vaibhavs-h/LFA-Builder#readme",
+  "type": "module",
+  "private": true,
   "dependencies": {
-    "@google/genai": "^1.37.0",
+    "express": "^4.19.2",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
-    "express": "^5.2.1"
+    "dotenv": "^16.4.5",
+    "@google/genai": "^1.37.0"
   }
 }
