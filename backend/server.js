@@ -13,6 +13,11 @@ app.use(cors({
 }));
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.status(200).send("Backend is running 🚀");
+});
+
+
 const ai = new GoogleGenAI({
   apiKey: process.env.GOOGLE_API_KEY,
 });
